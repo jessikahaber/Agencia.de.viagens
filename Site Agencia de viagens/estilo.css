@@ -6,6 +6,10 @@ h1 {
     color: rgb(3, 3, 3);
 }
 
+.container-fluid {
+    blackground: black
+}
+
 img {
     background-color: white; 
     width: 20%;

@@ -5,32 +5,49 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Home </title>
+<!--Inicio do link de bootstrapCDN para carregar o estilo do CSS-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<!--Fim do link de bootstrapCDN para carregar o estilo do CSS-->
         <link rel="stylesheet" href="estilo.css">
     </head>
+    
     <body class="planodefundopraia" background="Imagens/planodefundopraia.png">
+        
+        <div class="container-fluid">
+            <table id="tabela1">
+                <tr>
+                    <td>Bus Trip</td>
+                </tr>
+                <tr>
+                    <td id="tripbus">Turismo de ônibus</td>
+                </tr>
+            </table>
+        </div>
 
-        <table id="tabela1">
-            <tr>
-                <td>Bus Trip</td>
-            </tr>
-            <tr>
-                <td id="tripbus">Turismo de ônibus</td>
-            </tr>
-        </table>
         <nav>
             <div class="menu">
+                <div class="row">
                 <ul>
-                    <li><a href="1. Home.html" target="_self">Home</a></li>
-                    <li><a href="2. Destinos.html" target="_self">Destinos</a></li>
-                    <li><a href="3. Promoções.html" target="_self">Promoções</a></li>
-                    <li><a href="5. Nosso Blog.html" target="_self">Nosso Blog</a></li>
-                    <li><a href="4. Parceiros.html" target="_self">Parceiros</a></li>
-                    <li><a href="6. Contato.html" target="_self">Contato</a></li>
+                    <div class="col-sm-3"><li><a href="1. Home.html" target="_self">Home</a></li></div>
+                    <div class="col-sm-3"></div><li><a href="2. Destinos.html" target="_self">Destinos</a></li></div>
+                    <div class="col-sm-3"></div><li><a href="3. Promoções.html" target="_self">Promoções</a></li></div>
+                    <div class="col-sm-3"></div><li><a href="5. Nosso Blog.html" target="_self">Nosso Blog</a></li></div>
+                    <div class="col-sm-3"></div><li><a href="4. Parceiros.html" target="_self">Parceiros</a></li></div>
+                    <div class="col-sm-3"></div><li><a href="6. Contato.html" target="_self">Contato</a></li></div>
                     </ul>
+                </div>
             </div>
         </nav>
         <main>
             <h2>Home</h2>
         </main>
+        
+    <!-- Bootstrap JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- fim do link de Bootstrap JavaScript -->
+  
     </body>
 </html>
