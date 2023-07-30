@@ -4,50 +4,289 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> Home </title>
+        <title> Turismo Rota Amazônica </title>
 <!--Inicio do link de bootstrapCDN para carregar o estilo do CSS-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <!--Fim do link de bootstrapCDN para carregar o estilo do CSS-->
         <link rel="stylesheet" href="estilo.css">
     </head>
     
-    <body class="planodefundopraia" background="Imagens/planodefundopraia.png">
-        
-        <div class="container-fluid">
-            <table id="tabela1">
-                <tr>
-                    <td>Bus Trip</td>
-                </tr>
-                <tr>
-                    <td id="tripbus">Turismo de ônibus</td>
-                </tr>
-            </table>
-        </div>
-
-        <nav>
-            <div class="menu">
-                <div class="row">
-                <ul>
-                    <div class="col-sm-3"><li><a href="1. Home.html" target="_self">Home</a></li></div>
-                    <div class="col-sm-3"></div><li><a href="2. Destinos.html" target="_self">Destinos</a></li></div>
-                    <div class="col-sm-3"></div><li><a href="3. Promoções.html" target="_self">Promoções</a></li></div>
-                    <div class="col-sm-3"></div><li><a href="5. Nosso Blog.html" target="_self">Nosso Blog</a></li></div>
-                    <div class="col-sm-3"></div><li><a href="4. Parceiros.html" target="_self">Parceiros</a></li></div>
-                    <div class="col-sm-3"></div><li><a href="6. Contato.html" target="_self">Contato</a></li></div>
-                    </ul>
+    <body class="bg-light text-dark">
+        <header class="position-relative">
+          <!-- Menu de navegação -->
+          <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <a class="navbar-brand" href="1. Home.html">Turismo Rota Amazônica</a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                      <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" href="./destino.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Destinos</a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Ação</a>
+                            <a class="dropdown-item" href="#">Outra ação</a>
+                          <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Algo mais aqui</a>
+                          </div>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./promocao.html">Promoções</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./contato.html">Contato</a>
+                      </li>
+                  </ul>
                 </div>
-            </div>
-        </nav>
-        <main>
-            <h2>Home</h2>
-        </main>
-        
-    <!-- Bootstrap JavaScript (Opcional) -->
-    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <!-- fim do link de Bootstrap JavaScript -->
-  
-    </body>
-</html>
+                  <div class="btn-group mx-2 ms-auto" role="group" aria-label="Basic radio toggle button group">
+                    <input type="radio" class="btn-check" name="btnradio" id="btnClaro" autocomplete="off">
+                    <label class="btn btn-outline-secondary" for="btnClaro">Claro</label>
+                    <input type="radio" class="btn-check" name="btnradio" id="btnEscuro" autocomplete="off">
+                    <label class="btn btn-outline-secondary" for="btnEscuro">Escuro</label>
+                  </div>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+            </nav>
+          </div>
+          
+          
+              <!-- Background image -->
+              <div id="intro-example" class="p-5 text-center d-flex justify-content-center align-items-center">
+                <div class="mask p-4 rounded fade-out ">
+                  <div>
+                    <h1 class="mb-3 slide-t delay-2">Viva a magia em cada destino.</h1>
+                    <h5 class="mb-4 slide-t delay-4">
+                      Viaje, sonhe, encante-se!
+                    </h5>
+                    <a class="slide-b delay-5 btn btn-outline-dark btn-lg m-2" href="#" role="button" rel="nofollow"
+                      target="_self">Destinos</a>
+                    <a class="slide-b delay-5 btn btn-outline-dark btn-lg m-2" href="#" target="_self" role="button">Promoções</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Background image -->
+            </header>
+            <main class="content-fluid m-3">
+              <section>
+          
+                <div class="my-3">
+                  <h2>Destinos</h2>
+                </div>
+          
+                <div class="row">
+          
+                  <div class="col-lg-4 col-sm-6 mb-3">
+                    <div class="card bg-dark text-white ">
+                      <img class="card-img-top" src="/DESTINOS/1. CIDADE DA LUZ/Firefly Cidade futura utó (1).jpg" alt="Imagem de capa do card">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Lorem, ipsum dolor.
+                        </h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam repudiandae optio
+                          ipsum
+                          harum ad id velit. Beatae doloribus similique eveniet.</p>
+                        <a href="#" class="btn btn-primary">Visitar</a>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-lg-4 col-sm-6 mb-3">
+                    <div class="card bg-dark text-white ">
+                      <img class="card-img-top" src="/DESTINOS/2. CANTO DA PAZ/Firefly fotografia de l (1).jpg" alt="Imagem de capa do card">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Lorem, ipsum dolor.
+                        </h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam repudiandae optio
+                          ipsum
+                          harum ad id velit. Beatae doloribus similique eveniet.</p>
+                        <a href="#" class="btn btn-primary">Visitar</a>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-lg-4 col-sm-6 mb-3">
+                    <div class="card bg-dark text-white ">
+                      <img class="card-img-top" src="./src/img/04.jpg" alt="Imagem de capa do card">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Lorem, ipsum dolor.
+                        </h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam repudiandae optio
+                          ipsum
+                          harum ad id velit. Beatae doloribus similique eveniet.</p>
+                        <a href="#" class="btn btn-primary">Visitar</a>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-lg-4 col-sm-6 mb-3">
+                    <div class="card bg-dark text-white">
+                      <img class="card-img-top" src="./src/img/05.jpg" alt="Imagem de capa do card">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Lorem, ipsum dolor.
+                        </h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam repudiandae optio
+                          ipsum
+                          harum ad id velit. Beatae doloribus similique eveniet.</p>
+                        <a href="#" class="btn btn-primary">Visitar</a>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-lg-4 col-sm-6 mb-3">
+                    <div class="card bg-dark text-white">
+                      <img class="card-img-top" src="./src/img/06.jpg" alt="Imagem de capa do card">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Lorem, ipsum dolor.
+                        </h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam repudiandae optio
+                          ipsum
+                          harum ad id velit. Beatae doloribus similique eveniet.</p>
+                        <a href="#" class="btn btn-primary">Visitar</a>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-lg-4 col-sm-6 mb-3">
+                    <div class="card bg-dark text-white">
+                      <img class="card-img-top" src="./src/img/07.jpg" alt="Imagem de capa do card">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Lorem, ipsum dolor.
+                        </h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam repudiandae optio
+                          ipsum
+                          harum ad id velit. Beatae doloribus similique eveniet.</p>
+                        <a href="#" class="btn btn-primary">Visitar</a>
+                      </div>
+                    </div>
+                  </div>
+          
+                </div>
+          
+                <div class="my-3">
+                  <h2>Promoções</h2>
+                </div>
+                <div class="row">
+          
+                  <div class="col-12 mb-3">
+                    <div class="card principal bg-dark text-white">
+                      <img class="card-img-top" src="./src/img/p-5.jpg" alt="Imagem de capa do card">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Lorem, ipsum dolor.
+                          <span class="badge bg-success ">20%off</span>
+                        </h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam repudiandae optio
+                          ipsum
+                          harum ad id velit. Beatae doloribus similique eveniet.</p>
+                        <a href="#" class="btn btn-primary">Visitar</a>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-sm-6 mb-3">
+                    <div class="card bg-dark text-white">
+                      <img class="card-img-top" src="./src/img/p-3.jpg" alt="Imagem de capa do card">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Lorem, ipsum dolor.
+                          <span class="badge bg-success">10%off</span>
+                        </h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam repudiandae optio
+                          ipsum
+                          harum ad id velit. Beatae doloribus similique eveniet.</p>
+                        <a href="#" class="btn btn-primary">Visitar</a>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-sm-6 mb-3">
+                    <div class="card bg-dark text-white">
+                      <img class="card-img-top" src="./src/img/p-4.jpg" alt="Imagem de capa do card">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Lorem, ipsum dolor.
+                          <span class="badge bg-success">15%off</span>
+                        </h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam repudiandae optio
+                          ipsum
+                          harum ad id velit. Beatae doloribus similique eveniet.</p>
+                        <a href="#" class="btn btn-primary">Visitar</a>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-sm-6 mb-3">
+                    <div class="card bg-dark text-white">
+                      <img class="card-img-top" src="./src/img/p-2.jpg" alt="Imagem de capa do card">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Lorem, ipsum dolor.
+                          <span class="badge bg-success">10%off</span>
+                        </h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam repudiandae optio
+                          ipsum
+                          harum ad id velit. Beatae doloribus similique eveniet.</p>
+                        <a href="#" class="btn btn-primary">Visitar</a>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col-sm-6 mb-3">
+                    <div class="card bg-dark text-white">
+                      <img class="card-img-top" src="./src/img/p-1.jpg" alt="Imagem de capa do card">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Lorem, ipsum dolor.
+                          <span class="badge bg-success">10%off</span></h1>
+                        </h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam repudiandae optio
+                          ipsum
+                          harum ad id velit. Beatae doloribus similique eveniet.</p>
+                        <a href="#" class="btn btn-primary">Visitar</a>
+                      </div>
+                    </div>
+                  </div>
+          
+          
+                </div>
+          
+          
+          
+          
+              </section>
+            </main>
+            <footer class="bg-dark text-white py-4">
+              <div class="container text-center">
+                <small>
+                  Site desenvolvido por @IlnaraAckermann
+                  <br>
+          
+                  <a href="#" class="text-white mx-2" title="GitHub">
+                    <i class="fab fa-github mx-2">GitHub</i>
+                  </a>
+          
+                  <a href="#" class="text-white mx-2" title="LinkedIn">
+                    <i class="fab fa-linkedin mx-2">LinkedIn</i>
+                  </a>
+                </small>
+              </div>
+            </footer>
+          
+          
+          
+          
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+              integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+              crossorigin="anonymous"></script>
+            <script src="src/js/index.js"></script>
+          </body>
+          
+          </html>
