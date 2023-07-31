@@ -92,7 +92,7 @@ aside {
   grid-column-start: 2; /*Para dizer que o meu aside inicia na linha 2*/
   grid-column-end: 3; /*Para dizer que o meu aside termina na linha virtual 3*/
   grid-area: aside;
-  height: 230vh; /*Para dizer a altura que tera a parte do aside*/
+  height: 250vh; /*Para dizer a altura que tera a parte do aside*/
   padding: 25px; /*Para definir uma margem entre main e a palavra Destinos*/
 }
 
@@ -170,16 +170,23 @@ aside {
 }
 /*Fim da Formatação do botão dos Cards*/
 
+.button {
+  padding-bottom: 2%;
+  background-color: rgb(255, 255, 255);
+  margin-left: 50%;
+}
 /* Fim da Estilização de aside*/
 
+/*Inicio da Formatação do footer*/
 footer {
-  background: rgb(204, 19, 50);
+  background: rgb(161, 255, 200);
   grid-column-start: 1; /*Para dizer que o meu footer inicia na linha 1*/
   grid-column-end: 3; /*Para dizer que o meu footer termina na linha 3, e assim ele ocupará 100% do width*/
   grid-area: footer;
-  height: 13vh;
+  height: 40vh;
 }
 
+/*Fim da Formatação do footer*/
 .container-fluid {
   display: grid; /*Incrementando o CSS grid no site*/
   grid-template-columns: 3fr 1fr; /*Para incluir colunas, e dizendo que elas são flexiveis, por serem flex as colunas são divididas por iguais*/
