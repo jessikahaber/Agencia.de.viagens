@@ -88,12 +88,87 @@ main {
 
 /* Inicio da Estilização de aside*/
 aside {
-  background: green;
+  background: rgb(255, 255, 255); /*Para definir a cor do background*/
   grid-column-start: 2; /*Para dizer que o meu aside inicia na linha 2*/
   grid-column-end: 3; /*Para dizer que o meu aside termina na linha virtual 3*/
   grid-area: aside;
-  height: 30vh;
+  height: 230vh; /*Para dizer a altura que tera a parte do aside*/
+  padding: 25px; /*Para definir uma margem entre main e a palavra Destinos*/
 }
+
+/*Inicio da Formatação dos Cards*/
+.estilocard {
+  width: 25%; /*Defini largura de 25%*/
+  border: 2%; /*Defini a borda normal de 2%*/
+  height: 90vh; /*Defini a altura*/
+  background-color: rgbargb(255, 255, 255); /*Defini a cor o plano de fundo*/
+  display: inline-block; /*Defini que todos os cards devem ficar alinhados em uma linha*/
+  padding: 25px;
+  margin-top: 3%; /*Defini uma margem entre destinos e o inicio do card*/
+  margin-bottom: 3%; /*Defini uma margem entre o fnal do card e o titulo Promoções*/
+  margin-right: 4%; /*Defini uma margem de 4% a direita para dar espaçamento entre os cards*/
+  margin-left: 4%; /*Defini uma margem de 4% a esquerda para dar espaçamento entre os cards*/
+  border-top-right-radius: 15%; /*Defini a borda lateral direita curvada*/
+  text-align: justify; /*Defini que o texto será justificado*/
+  border-style: groove; /*Defini que o estilo da borda é groove, grosso*/
+  border-color: black; /*Defini a cor da borda*/
+  border-top-color: rgb(0, 228, 19); /*Defini a cor da borda superior é verde*/
+  border-right-color: rgb(0, 230, 0); /*Defini a cor da borda direita é verde*/
+  border-left-style: dashed; /*Defini que o estilo da borda esquerda é traçado*/
+}
+/*Fim da Formatação dos Cards*/
+
+/*Inicio da Formatação das imagens dos Cards*/
+.card-image {
+  width: 270px; /*Defino a largura da imagem do card*/
+  height: 200px; /*Defino a altura da imagem do card*/
+  object-fit: cover; /*Defino um tanho fixo para essa imagem, se eu tirar essa estilização a imagem fica no tamanho normal*/
+  border-radius: 5%; /*Defino bordas circulares nas imagens*/
+  padding-bottom: 2%; /*Defino um espaçamento interno na imagem*/
+  margin-bottom: 2%; /*Defino um espaçamento entre a imagem e o nome da cidade*/
+}
+/*Fim da Formatação das imagens dos Cards*/
+
+/*Inicio da Formatação da ultima linha, coluna que criei para valores e botão saiba mais*/
+.container {
+  column-count: 2;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+/*Fim da Formatação da ultima linha, coluna que criei para valores e botão saiba mais*/
+
+/*Inicio da Formatação dos valores dos Cards*/
+#card-valor {
+  width: 140px; /*Defino a largura da imagem do card*/
+  height: 60px; /*Defino a altura da imagem do card*/
+  background-color: rgb(255, 255, 255); /*Defino a cor de fundo do valor*/
+  padding: 8px 8px 8px 8px; /*Defino o espaço interno para centralizar o valor*/
+  border-radius: 10px; /*deixo a borda do valor circular*/
+  margin-top: 3%; /*Defino um espaçamento entre explore e o valor em reais*/
+  font-family: sans-serif, arial; /*defino o tipo de letra do valor*/
+  font-size: xx-large; /*defino que o tamanho da letra é grande*/
+  color: rgb(26, 230, 26); /*defino o preço na cor verde*/
+}
+/*Fim da Formatação dos valores dos Cards*/
+
+/*Inicio da Formatação do botão dos Cards*/
+.card-saibamais {
+  background-color: rgb(255, 255, 255);
+  width: 140px; /*Defino a largura da imagem do card*/
+  height: 60px; /*Defino a altura da imagem do card*/
+  border-radius: 10%; /*Defino a borda do botão*/
+  margin-top: 3%; /*Defino um espaçamento entre explore e o valor em reais*/
+}
+#imgbotaosaibamais {
+  width: 140px; /*Defino a largura da imagem do card*/
+  height: 60px; /*Defino a altura da imagem do card*/
+  border-radius: 10%; /*Defino a borda do botão*/
+  margin-top: 3%; /*Defino um espaçamento entre explore e o valor em reais*/
+}
+/*Fim da Formatação do botão dos Cards*/
 
 /* Fim da Estilização de aside*/
 
