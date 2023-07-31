@@ -179,11 +179,21 @@ aside {
 
 /*Inicio da Formatação do footer*/
 footer {
-  background: rgb(161, 255, 200);
   grid-column-start: 1; /*Para dizer que o meu footer inicia na linha 1*/
   grid-column-end: 3; /*Para dizer que o meu footer termina na linha 3, e assim ele ocupará 100% do width*/
   grid-area: footer;
   height: 40vh;
+}
+
+.pagamentos {
+  text-align: center;
+  height: 10vh;
+  padding-bottom: 7%;
+}
+
+.formapagamento {
+  text-align: center;
+  height: 10vh;
 }
 
 /*Fim da Formatação do footer*/
