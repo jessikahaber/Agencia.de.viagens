@@ -40,7 +40,7 @@
     <!-- Inicio da imagem do-->
     <main>
       <div class="img.main">
-        <div class="welcome">
+        <div id="welcome">
           <h4 style="text-align: center">Visite o Pará</h4>
           <h6>
             Desvende a exuberância selvagem da Amazônia e mergulhe em uma
@@ -58,21 +58,32 @@
     <!-- Inicio de aside - seção 1: Destinos-->
     <aside>
       <h1 style="text-align: center">Contato</h1>
-
-      <form action="Contatorealizado.html">
-        <!-- Estou redirecionando a pessoa para essa pagina após ela clicar no botão "Enviar"-->
-        <label>Escreva seu nome</label>
-        <input type="text" placeholder="Escreva aqui seu nome" />
-        <br />
-        <label>Digite sua senha</label>
-        <input type="password" placeholder="*********" />
-        <br />
-        <label>Informe-nos o motivo do seu contato:</label>
-        <br />
-        <textarea placeholder="Você pode escrever sua mensagem aqui"></textarea>
-        <br />
-        <input type="submit" value="Enviar" />
-      </form>
+      <div class="estilocontato">
+        <form action="Contatorealizado.html">
+          <!-- Estou redirecionando a pessoa para essa pagina após ela clicar no botão "Enviar"-->
+          <div class="inplab">
+            <label>Escreva seu nome</label>
+            <input type="text" placeholder="Escreva aqui seu nome" />
+          </div>
+          <br />
+          <div class="inplab">
+            <label>Digite sua senha</label>
+            <input type="password" placeholder="*********" />
+          </div>
+          <br />
+          <div class="inplab">
+            <label>Informe-nos o motivo do seu contato:</label>
+          </div>
+          <br />
+          <div class="inplab">
+            <textarea
+              placeholder="Você pode escrever sua mensagem aqui"
+            ></textarea>
+          </div>
+          <br />
+          <input class="btn btn-primary" type="submit" value="Enviar" />
+        </form>
+      </div>
     </aside>
   </body>
 </html>
