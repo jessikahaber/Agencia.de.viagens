@@ -194,6 +194,19 @@ footer {
 .formapagamento {
   text-align: center;
   height: 10vh;
+  padding-bottom: 3%;
+}
+
+.gitlink {
+  text-align: center;
+  height: 5vh;
+  padding-top: 4%;
+}
+
+.autoraprojeto {
+  text-align: center;
+  height: 10vh;
+  padding-top: 4%;
 }
 
 /*Fim da Formatação do footer*/
