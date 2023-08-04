@@ -2,13 +2,6 @@
   background-color: rgba(209, 209, 209, 0.493);
 }
 
-#heroDestino {
-  background: url(img/onçapintada.jpg);
-  background-size: 90rem 25rem;
-  background-position-x: center;
-  background-repeat: no-repeat;
-}
-
 #escolhadest {
   width: 30%;
   margin-left: 35%;
