@@ -2,10 +2,6 @@
   background-color: rgba(209, 209, 209, 0.493);
 }
 
-.carousel-inner {
-  height: 70vh;
-}
-
 #heroDestino {
   background: url(img/onçapintada.jpg);
   background-size: 90rem 25rem;
