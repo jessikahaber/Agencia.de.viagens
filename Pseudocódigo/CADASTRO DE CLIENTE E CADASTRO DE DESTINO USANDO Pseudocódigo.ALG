@@ -1,6 +1,9 @@
 Algoritmo "cadastro de cliente e cadastro de destino usando Pseudocódigo"
 // Autor(a)    : Jessika Haber de Albuquerque Pojo Ferreira
 // Data atual  : 05/08/2023
+// Descrição  : Cadastro de cliente e cadastro de destino +"
+// Consulta de cadastro de cliente e cadastro de destino usando Pseudocódigo"
+// Atividade do Módulo 2: Recode PRO"
 Var
  nomes: vetor[0..9] de caractere
  destinos: vetor[0..9] de caractere
@@ -11,7 +14,7 @@ Var
    destino: vetor[0..9] de caractere
    valor: vetor[0..9] de inteiro
    op, nome: caractere
-   i, j, s: inteiro
+   i, j, s, d, t, p: inteiro
 
 
 
@@ -129,28 +132,28 @@ procedimento cadastrar_destino()
 
 inicio
 
-   para i de 0 ate 9 faca
+   para d de 0 ate 9 faca
 
-      se (destino[i]="") entao
+      se (destino[d]="") entao
 
          escreval("DIGITE OS DADOS DA VIAGEM")
          escreval()
 
          escreva("-> Nome da origem: ")
-         leia(origem[i])
+         leia(origem[d])
 
 
          escreva("-> Nome do destino: ")
-         leia(destino[i])
+         leia(destino[d])
 
          escreva("-> Valor: ")
-         leia(valor[i])
+         leia(valor[d])
 
          escreval()
 
          voltar_menu()
 
-         s <- s + 1
+         p <- p + 1
 
          limpatela
       fimse
@@ -171,6 +174,8 @@ inicio
    se op="s" entao
 
       i <- i + 1
+      
+      d <- d + 1
 
       limpatela
 
@@ -229,30 +234,30 @@ procedimento buscar_destino()
 
 inicio
 
-   j <- 0
+   t <- 0
 
    escreval("PARA BUSCAR UM CADASTRO...")
    escreval()
 
    escreva("Informe o nome do destino: ")
    escreval()
-   leia(destino[i])
+   leia(destinos[i])
 
-   para i de 0 ate 9 faca
+   para d de 0 ate 9 faca
 
-      se (destino=destinos[i]) entao
+      se (nome=nomes[i]) entao
 
-         escreval("-> Nome do destino: ", destinos[i])
-         escreval("-> Nome da origem: ", origem[i])
-         escreval("-> Valor: ", valor[i])
+         escreval("-> Nome do destino: ", destino[d])
+         escreval("-> Nome da origem: ", origem[d])
+         escreval("-> Valor: ", valor[d])
          escreval()
 
-         j <- j + 1
+         t <- t + 1
 
       fimse
    fimpara
 
-   se (j = 0) entao
+   se (i = 0) entao
 
       escreval("Ops... destino não cadastrado!")
       escreval()
