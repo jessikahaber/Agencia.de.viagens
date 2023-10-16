@@ -21,6 +21,8 @@ I. Modelo Conceitual do Banco de Dados:
 II. Modelo Lógico do Banco de Dados:
 
 0. Utilizei a ferramenta brModelo, para realizar as atividades descritas a seguir;
+1. Usei como base o modelo de BD Conceitual e fui desenvolvendo o BD lógico;
+2. Criei as Entidades, atribui os atributos a cada uma delas, defini as PK, identifiquei os relacionamentos entre as entidades que são associadas e defini a cardinalidade entre elas.
 
 III. Modelo Físico do Banco de Dados:
 
