@@ -13,8 +13,8 @@ As atividades desenvolvidas na construção de cada Modelo foram as seguintes:
 I. Modelo Conceitual do Banco de Dados:
 
 0. Utilizei a ferramenta brModelo, para realizar as atividades descritas a seguir;
-1. Analisei o site que estou desenvolvendo, e assim identifiquei e listei quais as Entidades que eu usaria para desenvolver o BD Conceitual;
-2. Após criar as Entidades, comecei a atribuir a cada uma delas, os seus respectivos Atributos. Os atributos são as características ou propriedades das entidades. Eles descrevem informações específicas sobre uma entidade.
+1. Analisei o site que estou desenvolvendo, e assim identifiquei e listei quais as funcionalidades que o site precisaria ter e quais as Entidades que são necessárias para armazenar os dados das funções;
+2. Após esse raciocinio, começei a criar e desenvolver as Entidades com o brModelo, depois comecei a atribuir a cada uma delas, os seus respectivos Atributos simples e o atributo identificador (PK). Os atributos são as características ou propriedades das entidades. Eles descrevem informações específicas sobre uma entidade.
 3. Em seguida, comecei a identificar os relacionamentos entre as Entedidas que são associadas.
 4. Por fim, defini a cardinalidade entre elas.
 
