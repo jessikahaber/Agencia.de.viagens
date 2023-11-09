@@ -17,7 +17,7 @@ I. Modelo Conceitual do Banco de Dados:
 2. Após esse raciocinio, começei a criar e desenvolver as Entidades com o brModelo, depois comecei a atribuir a cada uma delas, os seus respectivos Atributos simples e o atributo identificador (PK). Os atributos são as características ou propriedades das entidades. Eles descrevem informações específicas sobre uma entidade.
 3. Em seguida, comecei a identificar os relacionamentos entre as Entedidas que são associadas.
 4. Defini a cardinalidade entre elas.
-5. Por fim, desmembrei as entidades que possuiam relacionamentos de N para N no diagrama.
+5. Por fim, vereifiquei se haviam Entidades que possuiam relacionamentos de N para N no diagrama para desmembrar, mas não haviam.
 
 II. Modelo Lógico do Banco de Dados:
 
